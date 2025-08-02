@@ -1,0 +1,132 @@
+.confirmcontainer {
+  display: flex;
+  margin-left: 15rem;
+  margin-right: 18rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1.2rem;
+  border-bottom: solid 1px gray;
+  gap: 1.2rem;
+}
+.confirmx {
+  color: hsl(14, 86%, 42%);
+  font-weight: bold;
+}
+.confirmimg {
+  border-radius: 10px;
+}
+.confirmname {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: hsl(14, 65%, 9%);
+}
+.confirmprice {
+  font-size: 1rem;
+  color: gray;
+  font-weight: 600;
+}
+.confirmall {
+  display: flex;
+  gap: 10rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 15rem;
+  margin-right: 18rem;
+  margin-top: 0.5rem;
+}
+.confirmbutton {
+  width: 63rem;
+  height: 5rem;
+  background-color: hsl(14, 86%, 42%);
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  margin-left: 15rem;
+  margin-top: 2.5rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+.confirmbutton:hover {
+  color: hsl(14, 86%, 42%);
+  background-color: white;
+}
+.trashicon {
+  color: hsl(14, 86%, 42%);
+  display: flex;
+  position: absolute;
+  right: 300px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.yourcart {
+  color: hsl(14, 86%, 42%);
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 15rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.confirmlink {
+  color: hsl(14, 86%, 42%);
+  margin-left: 42rem;
+  margin-top: 1rem;
+}
+.emptypart {
+  margin-left: 37rem;
+  margin-top: 5rem;
+}
+.noproduct {
+  color: hsl(14, 86%, 42%);
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-left: 37rem;
+}
+@media (max-width: 480px) {
+  .confirmcontainer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2.5rem;
+  }
+  .confirmbutton {
+    width: 42.5rem;
+    height: 5rem;
+
+    font-size: 1.9rem;
+
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+  }
+  .yourcart {
+    font-size: 3rem;
+
+    margin-left: 1rem;
+  }
+  .confirmall {
+    gap: 5rem;
+    font-size: 1.5rem;
+
+    margin-left: 2rem;
+    margin-right: 10rem;
+  }
+  .confirmlink {
+    display: flex;
+    text-align: center;
+    margin-left: 20rem;
+    font-size: 1.8rem;
+  }
+  .trashicon {
+    right: -300px;
+  }
+  .emptypart {
+    margin-left: 10rem;
+    margin-top: 5rem;
+  }
+  .noproduct {
+    font-size: 2rem;
+    margin-left: 10rem;
+  }
+}

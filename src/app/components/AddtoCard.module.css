@@ -1,0 +1,23 @@
+.addtocard {
+  background-color: hsl(14, 86%, 42%);
+  border-radius: 30px;
+  width: 10rem;
+  height: 3rem;
+  border: solid 1px hsl(20, 50%, 98%);
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.7rem;
+  text-align: center;
+  color: hsl(20, 50%, 98%);
+  /* margin-left: 5rem; */
+}
+@media (max-width: 480px) {
+  .addtocard {
+    width: 20rem;
+    height: 5rem;
+
+    padding: 0.8rem;
+    font-size: 1.6rem;
+    /* margin-left: 5rem; */
+  }
+}

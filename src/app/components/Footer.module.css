@@ -1,0 +1,21 @@
+.footer {
+  background-color: hsl(14, 86%, 42%);
+  display: flex;
+  gap: 2rem;
+  color: white;
+  font-weight: bold;
+  padding: 3rem;
+  text-align: center;
+  padding-left: 30rem;
+  margin-top: 2rem;
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .footer {
+    height: 17rem;
+    width: 50rem;
+    padding: 2rem;
+    font-size: 1.7rem;
+  }
+}
