@@ -1,83 +1,39 @@
+# 🍽️ Hot Plate
 
-Overview
-Hot Plate is a responsive e-commerce web application built with Next.js and React. Users can browse products, filter them by category, view detailed product pages, and add items to the shopping cart. The application uses Context API for state management, providing a seamless user experience.
+A modern and responsive food product showcase built with **Next.js** and **CSS Modules**.  
+This project displays various food items with clean UI and mobile-friendly layout.
 
-Features
-Display a list of products with filtering by product type
+## 🌐 Live Demo
 
-Detailed product pages with images and descriptions
+👉 [Click here to view the live project](https://hot-plate-6olb-git-master-zahra-abellous-projects.vercel.app/)
 
-Add products to cart with quantity management
+## 🛠️ Technologies Used
 
-Responsive design optimized for desktop, tablet, and mobile
+- **Next.js 14 (App Router)**
+- **React.js**
+- **CSS Modules**
+- **Responsive Design with Media Queries**
+- **Lucide Icons**
 
-Context API for managing cart state across the app
+## 📂 Features
 
-Live Demo
-You can check out the live version of the project here:
-Hot Plate Live Site
+- Dynamic product listing based on data
+- Detailed product pages using dynamic routing (`/products/[id]`)
+- Responsive layout for desktop and mobile
+- Modular component-based architecture
+- Minimal and clean UI with product images
 
-Technologies Used
-Next.js (React framework)
+## 📱 Responsive Design
 
-React Context API
+- Desktop-first styling
+- Optimized layout for screens up to `480px` using `@media` queries
+- Mobile layout reflows and resizes gracefully
 
-CSS Modules
+## 🖼️ Screenshots
+<img width="1886" height="962" alt="image" src="https://github.com/user-attachments/assets/28017748-04f1-4857-9c05-435e9d48314e" />
 
-JavaScript (ES6+)
+<img width="1893" height="970" alt="image" src="https://github.com/user-attachments/assets/a0e428aa-09ee-4c3b-a45b-e4b6c95f78d4" />
 
-Installation & Running Locally
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/hot-plate.git
-Navigate to the project directory:
-
-bash
-Copy
-Edit
-cd hot-plate
-Install dependencies:
-
-bash
-Copy
-Edit
-npm install
-Run the development server:
-
-bash
-Copy
-Edit
-npm run dev
-Open http://localhost:3000 in your browser to see the app.
-
-Project Structure
-/app: Main application pages and components
-
-/components: Reusable React components
-
-/styles: CSS module files for styling
-
-/public: Static assets like images and icons
-
-Responsive Design
-The project follows a desktop-first approach, using CSS media queries to adapt layouts for tablets and mobile devices, ensuring a great user experience on all screen sizes.
-
-Future Improvements
-Implement payment gateway integration
-
-Enhance UI/UX with animations and transitions
-
-Add product search functionality
-
-Enable product removal and cart editing features
-
-Implement user authentication and profiles
-
-Contact
-For questions or feedback, feel free to contact me:
-Email: your-email@example.com
-GitHub: https://github.com/yourusername
+> (You can add screenshots later by uploading them in GitHub and using Markdown:  
+> `![alt text](url)`)
 
