@@ -2,7 +2,7 @@
 import products from "../ProductInfo.js";
 import Image from "next/image";
 import Link from "next/link";
-import classes from "./productCard.module.css";
+import classes from "./ProductCard.module.css";
 import { useContext } from "react";
 import { AppContext } from "../AppContext.js";
 export default function ProductCard() {
